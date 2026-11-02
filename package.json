@@ -1,16 +1,16 @@
-﻿{
-    "name":  "publisher-hello",
-    "private":  true,
-    "version":  "0.0.0",
-    "type":  "module",
-    "main":  "src/main.mjs",
-    "scripts":  {
-                    "start":  "node src/main.mjs"
-                },
-    "scrapyio":  {
-                     "runtime":  "node-basic"
-                 },
-    "dependencies":  {
-
-                     }
+{
+  "name": "publisher-hello",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/main.mjs",
+  "scripts": {
+    "start": "node src/main.mjs"
+  },
+  "dependencies": {
+    "@scrapyio/sdk": "^0.1.0"
+  },
+  "scrapyio": {
+    "runtime": "node-basic"
+  }
 }
